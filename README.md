@@ -7,8 +7,7 @@ Meu segundo projeto web. Uma página com o jogo pedra, papel e tesoursa, possui 
 
 ## Imagem
 
-![Captura de Tela 1](imgs/index.html.png)
-![Captura de Tela 2](imgs/register.html.png)
+![Captura de Tela 1](imgs/taina-arj.github.io_pedra-papel-tesoura_.png)
 
 ## Ferramentas Utilizadas
 
