@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleDark.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>ROCK PAPER SCISSORS</h1>
+      <div class="score">
+        <div id="userLabel" class="label">User</div>
+        <div id="compLabel" class="label">Comp</div>
+        <span id="userScore">0</span>:<span id="compScore">0</span>
+      </div>
+
+      <div class="results" id="results">Pick one</div>
+
+      <div class="choices">
+        <button onclick="rock()" id="r">
+          <i class="fa-regular fa-hand-back-fist"></i>
+        </button>
+
+        <button onclick="paper()" id="p">
+          <i class="fa-regular fa-hand"></i>
+        </button>
+
+        <button onclick="scissors()" id="s">
+          <i class="fa-regular fa-hand-scissors fa-rotate-90"></i>
+        </button>
+      </div>
+
+      <div class="reset">
+        <button onclick="reset()">Reset score</button>
+      </div>
+    </main>
+    <footer>
+      <button class="dark-mode-btn" onclick="darkMode()">
+        <i class="fa-regular fa-sun"></i>
+      </button>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
