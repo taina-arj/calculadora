@@ -27,6 +27,7 @@ main {
 }
 
 main > h1 {
+  text-align: center;
   font-size: 4rem;
   margin: 1rem 0;
 }
@@ -129,4 +130,25 @@ main > h1 {
 }
 .dark-mode-btn:active {
   box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 85%;
+  }
+  main > h1 {
+    font-size: 3em;
+  }
+  .score {
+    width: auto;
+  }
+  .choices > button {
+    width: 80px;
+    height: 80px;
+    margin: 0em 0.1em;
+  }
+  .dark-mode-btn {
+    bottom: 1%;
+    left: 1%;
+  }
 }
